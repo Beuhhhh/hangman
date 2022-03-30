@@ -44,8 +44,8 @@ def get_available_letters(letters_guessed):
 
 #runs the hangman game
 def hangman(secret_word):
-    print('Welcome to the game Hangman!')
-    print('I am thinking of a word that is', len(secret_word), 'letters long.')
+    print('hangmannn')
+    print('The word is', len(secret_word), 'letters long.')
     print('-------------')
     letters_guessed = []
     mistakes_made = 0
